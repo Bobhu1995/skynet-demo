@@ -1,0 +1,9 @@
+[submodule "skynet"]
+	path = skynet
+	url = https://github.com/cloudwu/skynet.git
+[submodule "lsocket"]
+	path = lsocket
+	url = https://github.com/cloudwu/lsocket.git
+[submodule "redis"]
+	path = redis
+	url = https://github.com/redis/redis.git
