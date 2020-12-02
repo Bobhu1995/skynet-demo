@@ -4,6 +4,3 @@
 [submodule "lsocket"]
 	path = lsocket
 	url = https://github.com/cloudwu/lsocket.git
-[submodule "redis"]
-	path = redis
-	url = https://github.com/redis/redis.git
