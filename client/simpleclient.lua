@@ -8,7 +8,7 @@ package.cpath = string.format("%s/skynet/luaclib/?.so;%s/lsocket/?.so", PATH, PA
 local socket = require "simplesocket"
 local message = require "simplemessage"
 
-message.register(string.format("%s/proto/%s", PATH, "proto"))
+message.register(string.format("%s/sproto/%s", PATH, "proto"))
 
 message.peer(IP, 5678)
 message.connect()

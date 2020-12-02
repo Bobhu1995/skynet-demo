@@ -6,7 +6,8 @@ skynet.start(function()
 		local console = skynet.newservice("console")
 	end
 	skynet.newservice("debug_console",8000)
-	local proto = skynet.uniqueservice "protoloader"
+	
+    local proto = skynet.uniqueservice "protoloader"
     skynet.error("call proto lua load")
 	skynet.call(proto, "lua", "load", {
 		"proto.c2s",

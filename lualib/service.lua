@@ -5,6 +5,7 @@ local conf = require "redis_config"
 local service = {}
 
 function service.init(mod)
+    log("service init command=%s", Table.toString(mod))
     local funcs = mod.command
     if mod.info then
         skynet.info_func(function()
