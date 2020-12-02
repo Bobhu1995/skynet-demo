@@ -1,0 +1,211 @@
+14783:C 30 Nov 2020 19:50:06.680 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14783:C 30 Nov 2020 19:50:06.680 # Redis version=6.0.9, bits=64, commit=00000000, modified=0, pid=14783, just started
+14783:C 30 Nov 2020 19:50:06.680 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6380
+ |    `-._   `._    /     _.-'    |     PID: 14783
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+14783:M 30 Nov 2020 19:50:06.681 # Server initialized
+14783:M 30 Nov 2020 19:50:06.682 * Ready to accept connections
+16402:C 30 Nov 2020 20:09:45.353 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+16402:C 30 Nov 2020 20:09:45.353 # Redis version=6.0.9, bits=64, commit=00000000, modified=0, pid=16402, just started
+16402:C 30 Nov 2020 20:09:45.353 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6380
+ |    `-._   `._    /     _.-'    |     PID: 16402
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+16402:S 30 Nov 2020 20:09:45.354 # Server initialized
+16402:S 30 Nov 2020 20:09:45.354 * Ready to accept connections
+16402:S 30 Nov 2020 20:09:45.355 * Connecting to MASTER 127.0.0.1:6379
+16402:S 30 Nov 2020 20:09:45.355 * MASTER <-> REPLICA sync started
+16402:S 30 Nov 2020 20:09:45.355 * Non blocking connect for SYNC fired the event.
+16402:S 30 Nov 2020 20:09:45.356 * Master replied to PING, replication can continue...
+16402:S 30 Nov 2020 20:09:45.356 * Partial resynchronization not possible (no cached master)
+16402:S 30 Nov 2020 20:09:45.356 * Full resync from master: 6fb35cf491e16b957c8c51a496f512b74a052d99:0
+16402:S 30 Nov 2020 20:09:45.449 * MASTER <-> REPLICA sync: receiving 175 bytes from master to disk
+16402:S 30 Nov 2020 20:09:45.450 * MASTER <-> REPLICA sync: Flushing old data
+16402:S 30 Nov 2020 20:09:45.450 * MASTER <-> REPLICA sync: Loading DB in memory
+16402:S 30 Nov 2020 20:09:45.452 * Loading RDB produced by version 6.0.9
+16402:S 30 Nov 2020 20:09:45.452 * RDB age 0 seconds
+16402:S 30 Nov 2020 20:09:45.452 * RDB memory usage when created 1.83 Mb
+16402:S 30 Nov 2020 20:09:45.452 * MASTER <-> REPLICA sync: Finished with success
+16665:C 30 Nov 2020 20:17:36.036 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+16665:C 30 Nov 2020 20:17:36.036 # Redis version=6.0.9, bits=64, commit=00000000, modified=0, pid=16665, just started
+16665:C 30 Nov 2020 20:17:36.036 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6380
+ |    `-._   `._    /     _.-'    |     PID: 16665
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+16665:S 30 Nov 2020 20:17:36.037 # Server initialized
+16665:S 30 Nov 2020 20:17:36.037 * Loading RDB produced by version 6.0.9
+16665:S 30 Nov 2020 20:17:36.037 * RDB age 471 seconds
+16665:S 30 Nov 2020 20:17:36.037 * RDB memory usage when created 1.83 Mb
+16665:S 30 Nov 2020 20:17:36.037 * DB loaded from disk: 0.000 seconds
+16665:S 30 Nov 2020 20:17:36.037 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+16665:S 30 Nov 2020 20:17:36.037 * Ready to accept connections
+16665:S 30 Nov 2020 20:17:36.042 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:17:36.042 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:17:36.043 * Non blocking connect for SYNC fired the event.
+16665:S 30 Nov 2020 20:17:36.043 * Master replied to PING, replication can continue...
+16665:S 30 Nov 2020 20:17:36.043 * Trying a partial resynchronization (request 6fb35cf491e16b957c8c51a496f512b74a052d99:1).
+16665:S 30 Nov 2020 20:17:36.043 * Full resync from master: 12af906815efb01f1be7e891e52b20594cd45e59:0
+16665:S 30 Nov 2020 20:17:36.043 * Discarding previously cached master state.
+16665:S 30 Nov 2020 20:17:36.132 * MASTER <-> REPLICA sync: receiving 190 bytes from master to disk
+16665:S 30 Nov 2020 20:17:36.132 * MASTER <-> REPLICA sync: Flushing old data
+16665:S 30 Nov 2020 20:17:36.132 * MASTER <-> REPLICA sync: Loading DB in memory
+16665:S 30 Nov 2020 20:17:36.135 * Loading RDB produced by version 6.0.9
+16665:S 30 Nov 2020 20:17:36.135 * RDB age 0 seconds
+16665:S 30 Nov 2020 20:17:36.135 * RDB memory usage when created 1.83 Mb
+16665:S 30 Nov 2020 20:17:36.135 * MASTER <-> REPLICA sync: Finished with success
+16665:S 30 Nov 2020 20:35:52.841 # Connection with master lost.
+16665:S 30 Nov 2020 20:35:52.841 * Caching the disconnected master state.
+16665:S 30 Nov 2020 20:35:53.687 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:35:53.687 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:35:53.687 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:35:54.688 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:35:54.689 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:35:54.689 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:35:55.691 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:35:55.691 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:35:55.691 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:35:56.693 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:35:56.693 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:35:56.693 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:35:57.695 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:35:57.695 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:35:57.695 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:35:58.696 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:35:58.696 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:35:58.696 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:35:59.699 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:35:59.699 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:35:59.699 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:00.702 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:00.702 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:00.702 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:01.703 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:01.703 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:01.703 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:02.704 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:02.704 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:02.704 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:03.705 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:03.705 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:03.705 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:04.707 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:04.707 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:04.707 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:05.708 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:05.708 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:05.708 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:06.712 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:06.712 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:06.712 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:07.715 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:07.715 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:07.715 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:08.718 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:08.718 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:08.718 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:09.718 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:09.718 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:09.718 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:10.720 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:10.720 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:10.720 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:11.723 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:11.723 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:11.723 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:12.725 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:12.725 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:12.725 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:13.728 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:13.729 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:13.729 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:14.732 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:14.732 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:14.732 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:15.735 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:15.735 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:15.735 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:16.736 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:16.736 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:16.736 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:17.739 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:17.739 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:17.739 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:18.740 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:18.740 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:18.740 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:19.742 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:19.742 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:19.742 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:20.743 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:20.744 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:20.744 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:21.746 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:21.746 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:21.746 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:22.748 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:22.748 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:22.748 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:23.752 * Connecting to MASTER 127.0.0.1:6379
+16665:S 30 Nov 2020 20:36:23.752 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:23.752 # Error condition on socket for SYNC: Connection refused
+16665:S 30 Nov 2020 20:36:24.022 * REPLICAOF 127.0.0.1:6381 enabled (user request from 'id=12 addr=127.0.0.1:36560 fd=12 name=sentinel-4ab931e1-cmd age=157 idle=0 flags=x db=0 sub=0 psub=0 multi=4 qbuf=329 qbuf-free=32439 argv-mem=4 obl=45 oll=0 omem=0 tot-mem=61468 events=r cmd=exec user=default')
+16665:S 30 Nov 2020 20:36:24.027 # CONFIG REWRITE executed with success.
+16665:S 30 Nov 2020 20:36:24.752 * Connecting to MASTER 127.0.0.1:6381
+16665:S 30 Nov 2020 20:36:24.753 * MASTER <-> REPLICA sync started
+16665:S 30 Nov 2020 20:36:24.753 * Non blocking connect for SYNC fired the event.
+16665:S 30 Nov 2020 20:36:24.753 * Master replied to PING, replication can continue...
+16665:S 30 Nov 2020 20:36:24.753 * Trying a partial resynchronization (request 12af906815efb01f1be7e891e52b20594cd45e59:31475).
+16665:S 30 Nov 2020 20:36:24.753 * Successful partial resynchronization with master.
+16665:S 30 Nov 2020 20:36:24.753 # Master replication ID changed to 270fd241ad6f0bb773928908a5371983607db10b
+16665:S 30 Nov 2020 20:36:24.753 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+16665:S 30 Nov 2020 20:39:39.217 * 1 changes in 900 seconds. Saving...
+16665:S 30 Nov 2020 20:39:39.218 * Background saving started by pid 17296
+17296:C 30 Nov 2020 20:39:39.220 * DB saved on disk
+17296:C 30 Nov 2020 20:39:39.221 * RDB: 0 MB of memory used by copy-on-write
+16665:S 30 Nov 2020 20:39:39.318 * Background saving terminated with success

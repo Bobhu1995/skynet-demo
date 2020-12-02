@@ -1,0 +1,106 @@
+31197:C 01 Dec 2020 11:39:27.408 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+31197:C 01 Dec 2020 11:39:27.412 # Redis version=6.0.9, bits=64, commit=00000000, modified=0, pid=31197, just started
+31197:C 01 Dec 2020 11:39:27.412 # Configuration loaded
+31197:M 01 Dec 2020 11:39:27.413 * No cluster configuration found, I'm eb0494b4ae0426e652cc9b15864d67f99cab1a7f
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 7003
+ |    `-._   `._    /     _.-'    |     PID: 31197
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+31197:M 01 Dec 2020 11:39:27.425 # Server initialized
+31197:M 01 Dec 2020 11:39:27.425 * Ready to accept connections
+31430:C 01 Dec 2020 11:53:40.736 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+31430:C 01 Dec 2020 11:53:40.736 # Redis version=6.0.9, bits=64, commit=00000000, modified=0, pid=31430, just started
+31430:C 01 Dec 2020 11:53:40.736 # Configuration loaded
+31430:M 01 Dec 2020 11:53:40.738 * Node configuration loaded, I'm eb0494b4ae0426e652cc9b15864d67f99cab1a7f
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 7003
+ |    `-._   `._    /     _.-'    |     PID: 31430
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+31430:M 01 Dec 2020 11:53:40.738 # Server initialized
+31430:M 01 Dec 2020 11:53:40.739 * Ready to accept connections
+31430:M 01 Dec 2020 12:01:27.612 # configEpoch set to 3 via CLUSTER SET-CONFIG-EPOCH
+31430:M 01 Dec 2020 12:01:27.764 # IP address for this node updated to 127.0.0.1
+31430:M 01 Dec 2020 12:01:28.970 * Replica 127.0.0.1:7006 asks for synchronization
+31430:M 01 Dec 2020 12:01:28.970 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'd740f30f1383db89d229361d2e86dc592a999b00', my replication IDs are '0e140f3ec2080ed8bc2d6999f1c823a4ab66013f' and '0000000000000000000000000000000000000000')
+31430:M 01 Dec 2020 12:01:28.970 * Replication backlog created, my new replication IDs are '1c6385473199539639e394401003dd2cc6b243f3' and '0000000000000000000000000000000000000000'
+31430:M 01 Dec 2020 12:01:28.970 * Starting BGSAVE for SYNC with target: disk
+31430:M 01 Dec 2020 12:01:28.971 * Background saving started by pid 31574
+31574:C 01 Dec 2020 12:01:28.974 * DB saved on disk
+31574:C 01 Dec 2020 12:01:28.975 * RDB: 0 MB of memory used by copy-on-write
+31430:M 01 Dec 2020 12:01:29.069 * Background saving terminated with success
+31430:M 01 Dec 2020 12:01:29.069 * Synchronization with replica 127.0.0.1:7006 succeeded
+31430:M 01 Dec 2020 12:01:32.576 # Cluster state changed: ok
+31430:M 01 Dec 2020 14:09:44.798 * 1 changes in 900 seconds. Saving...
+31430:M 01 Dec 2020 14:09:44.798 * Background saving started by pid 31723
+31723:C 01 Dec 2020 14:09:44.801 * DB saved on disk
+31723:C 01 Dec 2020 14:09:44.801 * RDB: 0 MB of memory used by copy-on-write
+31430:M 01 Dec 2020 14:09:44.899 * Background saving terminated with success
+31430:M 02 Dec 2020 16:50:08.473 # User requested shutdown...
+31430:M 02 Dec 2020 16:50:08.474 * Calling fsync() on the AOF file.
+31430:M 02 Dec 2020 16:50:08.474 * Saving the final RDB snapshot before exiting.
+31430:M 02 Dec 2020 16:50:08.476 * DB saved on disk
+31430:M 02 Dec 2020 16:50:08.476 * Removing the pid file.
+31430:M 02 Dec 2020 16:50:08.476 # Redis is now ready to exit, bye bye...
+21694:C 02 Dec 2020 16:50:59.242 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+21694:C 02 Dec 2020 16:50:59.242 # Redis version=6.0.9, bits=64, commit=00000000, modified=0, pid=21694, just started
+21694:C 02 Dec 2020 16:50:59.242 # Configuration loaded
+21694:M 02 Dec 2020 16:50:59.244 * Node configuration loaded, I'm eb0494b4ae0426e652cc9b15864d67f99cab1a7f
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 7003
+ |    `-._   `._    /     _.-'    |     PID: 21694
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+21694:M 02 Dec 2020 16:50:59.244 # Server initialized
+21694:M 02 Dec 2020 16:50:59.245 * DB loaded from append only file: 0.000 seconds
+21694:M 02 Dec 2020 16:50:59.245 * Ready to accept connections
+21694:M 02 Dec 2020 16:51:00.269 * Replica 127.0.0.1:7006 asks for synchronization
+21694:M 02 Dec 2020 16:51:00.269 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '478b6475a6199ecb45164e7c64ae1eaa91efbb28', my replication IDs are '52254bb4208bc68ace8733bbf585f1d3200880b0' and '0000000000000000000000000000000000000000')
+21694:M 02 Dec 2020 16:51:00.269 * Replication backlog created, my new replication IDs are '98f56b939dee3eea482316b43149210a7a2d7190' and '0000000000000000000000000000000000000000'
+21694:M 02 Dec 2020 16:51:00.269 * Starting BGSAVE for SYNC with target: disk
+21694:M 02 Dec 2020 16:51:00.270 * Background saving started by pid 21730
+21730:C 02 Dec 2020 16:51:00.272 * DB saved on disk
+21730:C 02 Dec 2020 16:51:00.273 * RDB: 0 MB of memory used by copy-on-write
+21694:M 02 Dec 2020 16:51:00.346 * Background saving terminated with success
+21694:M 02 Dec 2020 16:51:00.346 * Synchronization with replica 127.0.0.1:7006 succeeded
+21694:M 02 Dec 2020 16:51:01.248 # Cluster state changed: ok

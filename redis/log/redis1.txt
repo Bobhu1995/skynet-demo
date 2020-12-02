@@ -1,0 +1,192 @@
+14782:C 30 Nov 2020 19:50:06.675 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14782:C 30 Nov 2020 19:50:06.675 # Redis version=6.0.9, bits=64, commit=00000000, modified=0, pid=14782, just started
+14782:C 30 Nov 2020 19:50:06.675 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 14782
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+14782:M 30 Nov 2020 19:50:06.676 # Server initialized
+14782:M 30 Nov 2020 19:50:06.677 * Ready to accept connections
+16102:C 30 Nov 2020 20:08:23.953 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+16102:C 30 Nov 2020 20:08:23.953 # Redis version=6.0.9, bits=64, commit=00000000, modified=0, pid=16102, just started
+16102:C 30 Nov 2020 20:08:23.953 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 16102
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+16102:M 30 Nov 2020 20:08:23.955 # Server initialized
+16102:M 30 Nov 2020 20:08:23.955 * Ready to accept connections
+16102:signal-handler (1606738121) Received SIGINT scheduling shutdown...
+16102:M 30 Nov 2020 20:08:41.897 # User requested shutdown...
+16102:M 30 Nov 2020 20:08:41.897 * Saving the final RDB snapshot before exiting.
+16102:M 30 Nov 2020 20:08:41.900 * DB saved on disk
+16102:M 30 Nov 2020 20:08:41.900 * Removing the pid file.
+16102:M 30 Nov 2020 20:08:41.900 # Redis is now ready to exit, bye bye...
+16401:C 30 Nov 2020 20:09:45.347 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+16401:C 30 Nov 2020 20:09:45.347 # Redis version=6.0.9, bits=64, commit=00000000, modified=0, pid=16401, just started
+16401:C 30 Nov 2020 20:09:45.347 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 16401
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+16401:M 30 Nov 2020 20:09:45.348 # Server initialized
+16401:M 30 Nov 2020 20:09:45.349 * Loading RDB produced by version 6.0.9
+16401:M 30 Nov 2020 20:09:45.349 * RDB age 64 seconds
+16401:M 30 Nov 2020 20:09:45.349 * RDB memory usage when created 0.77 Mb
+16401:M 30 Nov 2020 20:09:45.349 * DB loaded from disk: 0.000 seconds
+16401:M 30 Nov 2020 20:09:45.349 * Ready to accept connections
+16401:M 30 Nov 2020 20:09:45.356 * Replica 127.0.0.1:6380 asks for synchronization
+16401:M 30 Nov 2020 20:09:45.356 * Full resync requested by replica 127.0.0.1:6380
+16401:M 30 Nov 2020 20:09:45.356 * Replication backlog created, my new replication IDs are '6fb35cf491e16b957c8c51a496f512b74a052d99' and '0000000000000000000000000000000000000000'
+16401:M 30 Nov 2020 20:09:45.356 * Starting BGSAVE for SYNC with target: disk
+16401:M 30 Nov 2020 20:09:45.356 * Background saving started by pid 16411
+16411:C 30 Nov 2020 20:09:45.359 * DB saved on disk
+16411:C 30 Nov 2020 20:09:45.359 * RDB: 0 MB of memory used by copy-on-write
+16401:M 30 Nov 2020 20:09:45.449 * Background saving terminated with success
+16401:M 30 Nov 2020 20:09:45.449 * Synchronization with replica 127.0.0.1:6380 succeeded
+16401:M 30 Nov 2020 20:13:09.400 * Replica 127.0.0.1:6381 asks for synchronization
+16401:M 30 Nov 2020 20:13:09.400 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '8ab89467b18a49caa71a50452dc6e12f449af6c9', my replication IDs are '6fb35cf491e16b957c8c51a496f512b74a052d99' and '0000000000000000000000000000000000000000')
+16401:M 30 Nov 2020 20:13:09.400 * Starting BGSAVE for SYNC with target: disk
+16401:M 30 Nov 2020 20:13:09.401 * Background saving started by pid 16436
+16436:C 30 Nov 2020 20:13:09.404 * DB saved on disk
+16436:C 30 Nov 2020 20:13:09.405 * RDB: 0 MB of memory used by copy-on-write
+16401:M 30 Nov 2020 20:13:09.491 * Background saving terminated with success
+16401:M 30 Nov 2020 20:13:09.491 * Synchronization with replica 127.0.0.1:6381 succeeded
+16401:M 30 Nov 2020 20:13:32.744 # Connection with replica 127.0.0.1:6381 lost.
+16401:M 30 Nov 2020 20:14:55.986 * Replica 127.0.0.1:6381 asks for synchronization
+16401:M 30 Nov 2020 20:14:55.986 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '3cf3d5edda5ae84e2f031d99808a1cbb09766cbb', my replication IDs are '6fb35cf491e16b957c8c51a496f512b74a052d99' and '0000000000000000000000000000000000000000')
+16401:M 30 Nov 2020 20:14:55.986 * Starting BGSAVE for SYNC with target: disk
+16401:M 30 Nov 2020 20:14:55.987 * Background saving started by pid 16450
+16450:C 30 Nov 2020 20:14:55.990 * DB saved on disk
+16450:C 30 Nov 2020 20:14:55.990 * RDB: 0 MB of memory used by copy-on-write
+16401:M 30 Nov 2020 20:14:56.088 * Background saving terminated with success
+16401:M 30 Nov 2020 20:14:56.088 * Synchronization with replica 127.0.0.1:6381 succeeded
+16401:M 30 Nov 2020 20:15:38.162 # Connection with replica 127.0.0.1:6381 lost.
+16401:M 30 Nov 2020 20:16:05.112 * Replica 127.0.0.1:6381 asks for synchronization
+16401:M 30 Nov 2020 20:16:05.112 * Partial resynchronization request from 127.0.0.1:6381 accepted. Sending 98 bytes of backlog starting from offset 476.
+16664:C 30 Nov 2020 20:17:36.030 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+16664:C 30 Nov 2020 20:17:36.030 # Redis version=6.0.9, bits=64, commit=00000000, modified=0, pid=16664, just started
+16664:C 30 Nov 2020 20:17:36.030 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 16664
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+16664:M 30 Nov 2020 20:17:36.032 # Server initialized
+16664:M 30 Nov 2020 20:17:36.032 * Loading RDB produced by version 6.0.9
+16664:M 30 Nov 2020 20:17:36.032 * RDB age 161 seconds
+16664:M 30 Nov 2020 20:17:36.032 * RDB memory usage when created 1.85 Mb
+16664:M 30 Nov 2020 20:17:36.032 * DB loaded from disk: 0.000 seconds
+16664:M 30 Nov 2020 20:17:36.032 * Ready to accept connections
+16664:M 30 Nov 2020 20:17:36.043 * Replica 127.0.0.1:6380 asks for synchronization
+16664:M 30 Nov 2020 20:17:36.043 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '6fb35cf491e16b957c8c51a496f512b74a052d99', my replication IDs are '299965a2d50cb14cc72ab94803e69c22596218f0' and '0000000000000000000000000000000000000000')
+16664:M 30 Nov 2020 20:17:36.043 * Replication backlog created, my new replication IDs are '12af906815efb01f1be7e891e52b20594cd45e59' and '0000000000000000000000000000000000000000'
+16664:M 30 Nov 2020 20:17:36.043 * Starting BGSAVE for SYNC with target: disk
+16664:M 30 Nov 2020 20:17:36.043 * Background saving started by pid 16679
+16664:M 30 Nov 2020 20:17:36.044 * Replica 127.0.0.1:6381 asks for synchronization
+16664:M 30 Nov 2020 20:17:36.044 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for '6fb35cf491e16b957c8c51a496f512b74a052d99', my replication IDs are '12af906815efb01f1be7e891e52b20594cd45e59' and '0000000000000000000000000000000000000000')
+16664:M 30 Nov 2020 20:17:36.044 * Waiting for end of BGSAVE for SYNC
+16679:C 30 Nov 2020 20:17:36.047 * DB saved on disk
+16679:C 30 Nov 2020 20:17:36.047 * RDB: 0 MB of memory used by copy-on-write
+16664:M 30 Nov 2020 20:17:36.132 * Background saving terminated with success
+16664:M 30 Nov 2020 20:17:36.132 * Synchronization with replica 127.0.0.1:6380 succeeded
+16664:M 30 Nov 2020 20:17:36.132 * Synchronization with replica 127.0.0.1:6381 succeeded
+17306:C 30 Nov 2020 20:40:02.759 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+17306:C 30 Nov 2020 20:40:02.759 # Redis version=6.0.9, bits=64, commit=00000000, modified=0, pid=17306, just started
+17306:C 30 Nov 2020 20:40:02.759 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 17306
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+17306:M 30 Nov 2020 20:40:02.760 # Server initialized
+17306:M 30 Nov 2020 20:40:02.760 * Loading RDB produced by version 6.0.9
+17306:M 30 Nov 2020 20:40:02.760 * RDB age 1346 seconds
+17306:M 30 Nov 2020 20:40:02.761 * RDB memory usage when created 1.83 Mb
+17306:M 30 Nov 2020 20:40:02.761 * DB loaded from disk: 0.000 seconds
+17306:M 30 Nov 2020 20:40:02.761 * Ready to accept connections
+17306:S 30 Nov 2020 20:40:12.772 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+17306:S 30 Nov 2020 20:40:12.772 * REPLICAOF 127.0.0.1:6381 enabled (user request from 'id=4 addr=127.0.0.1:50726 fd=7 name=sentinel-9c3858cf-cmd age=10 idle=0 flags=x db=0 sub=0 psub=0 multi=4 qbuf=196 qbuf-free=32572 argv-mem=4 obl=45 oll=0 omem=0 tot-mem=61468 events=r cmd=exec user=default')
+17306:S 30 Nov 2020 20:40:12.776 # CONFIG REWRITE executed with success.
+17306:S 30 Nov 2020 20:40:12.778 * Connecting to MASTER 127.0.0.1:6381
+17306:S 30 Nov 2020 20:40:12.778 * MASTER <-> REPLICA sync started
+17306:S 30 Nov 2020 20:40:12.778 * Non blocking connect for SYNC fired the event.
+17306:S 30 Nov 2020 20:40:12.778 * Master replied to PING, replication can continue...
+17306:S 30 Nov 2020 20:40:12.778 * Trying a partial resynchronization (request 44f40e6f3911861b13847a8ac4872dcdab6a5866:1).
+17306:S 30 Nov 2020 20:40:12.779 * Full resync from master: 270fd241ad6f0bb773928908a5371983607db10b:76938
+17306:S 30 Nov 2020 20:40:12.779 * Discarding previously cached master state.
+17306:S 30 Nov 2020 20:40:12.881 * MASTER <-> REPLICA sync: receiving 203 bytes from master to disk
+17306:S 30 Nov 2020 20:40:12.881 * MASTER <-> REPLICA sync: Flushing old data
+17306:S 30 Nov 2020 20:40:12.881 * MASTER <-> REPLICA sync: Loading DB in memory
+17306:S 30 Nov 2020 20:40:12.883 * Loading RDB produced by version 6.0.9
+17306:S 30 Nov 2020 20:40:12.883 * RDB age 0 seconds
+17306:S 30 Nov 2020 20:40:12.883 * RDB memory usage when created 2.01 Mb
+17306:S 30 Nov 2020 20:40:12.883 * MASTER <-> REPLICA sync: Finished with success

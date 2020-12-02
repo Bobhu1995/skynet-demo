@@ -1,0 +1,149 @@
+31207:C 01 Dec 2020 11:39:27.427 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+31207:C 01 Dec 2020 11:39:27.428 # Redis version=6.0.9, bits=64, commit=00000000, modified=0, pid=31207, just started
+31207:C 01 Dec 2020 11:39:27.428 # Configuration loaded
+31207:M 01 Dec 2020 11:39:27.429 * No cluster configuration found, I'm 6db3725912a9a04d75f91d0c307c11410b8f2211
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 7006
+ |    `-._   `._    /     _.-'    |     PID: 31207
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+31207:M 01 Dec 2020 11:39:27.433 # Server initialized
+31207:M 01 Dec 2020 11:39:27.433 * Ready to accept connections
+31444:C 01 Dec 2020 11:53:40.755 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+31444:C 01 Dec 2020 11:53:40.755 # Redis version=6.0.9, bits=64, commit=00000000, modified=0, pid=31444, just started
+31444:C 01 Dec 2020 11:53:40.755 # Configuration loaded
+31444:M 01 Dec 2020 11:53:40.757 * Node configuration loaded, I'm 6db3725912a9a04d75f91d0c307c11410b8f2211
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 7006
+ |    `-._   `._    /     _.-'    |     PID: 31444
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+31444:M 01 Dec 2020 11:53:40.757 # Server initialized
+31444:M 01 Dec 2020 11:53:40.757 * Ready to accept connections
+31444:M 01 Dec 2020 12:01:27.612 # configEpoch set to 6 via CLUSTER SET-CONFIG-EPOCH
+31444:M 01 Dec 2020 12:01:27.763 # IP address for this node updated to 127.0.0.1
+31444:S 01 Dec 2020 12:01:28.616 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+31444:S 01 Dec 2020 12:01:28.616 # Cluster state changed: ok
+31444:S 01 Dec 2020 12:01:28.968 * Connecting to MASTER 127.0.0.1:7003
+31444:S 01 Dec 2020 12:01:28.969 * MASTER <-> REPLICA sync started
+31444:S 01 Dec 2020 12:01:28.969 * Non blocking connect for SYNC fired the event.
+31444:S 01 Dec 2020 12:01:28.970 * Master replied to PING, replication can continue...
+31444:S 01 Dec 2020 12:01:28.970 * Trying a partial resynchronization (request d740f30f1383db89d229361d2e86dc592a999b00:1).
+31444:S 01 Dec 2020 12:01:28.971 * Full resync from master: 1c6385473199539639e394401003dd2cc6b243f3:0
+31444:S 01 Dec 2020 12:01:28.971 * Discarding previously cached master state.
+31444:S 01 Dec 2020 12:01:29.069 * MASTER <-> REPLICA sync: receiving 175 bytes from master to disk
+31444:S 01 Dec 2020 12:01:29.069 * MASTER <-> REPLICA sync: Flushing old data
+31444:S 01 Dec 2020 12:01:29.069 * MASTER <-> REPLICA sync: Loading DB in memory
+31444:S 01 Dec 2020 12:01:29.073 * Loading RDB produced by version 6.0.9
+31444:S 01 Dec 2020 12:01:29.073 * RDB age 1 seconds
+31444:S 01 Dec 2020 12:01:29.073 * RDB memory usage when created 2.53 Mb
+31444:S 01 Dec 2020 12:01:29.073 * MASTER <-> REPLICA sync: Finished with success
+31444:S 01 Dec 2020 12:01:29.073 * Background append only file rewriting started by pid 31577
+31444:S 01 Dec 2020 12:01:29.098 * AOF rewrite child asks to stop sending diffs.
+31577:C 01 Dec 2020 12:01:29.098 * Parent agreed to stop sending diffs. Finalizing AOF...
+31577:C 01 Dec 2020 12:01:29.098 * Concatenating 0.00 MB of AOF diff received from parent.
+31577:C 01 Dec 2020 12:01:29.098 * SYNC append only file rewrite performed
+31577:C 01 Dec 2020 12:01:29.098 * AOF rewrite: 0 MB of memory used by copy-on-write
+31444:S 01 Dec 2020 12:01:29.169 * Background AOF rewrite terminated with success
+31444:S 01 Dec 2020 12:01:29.169 * Residual parent diff successfully flushed to the rewritten AOF (0.00 MB)
+31444:S 01 Dec 2020 12:01:29.169 * Background AOF rewrite finished successfully
+31444:S 01 Dec 2020 14:09:44.789 * 1 changes in 900 seconds. Saving...
+31444:S 01 Dec 2020 14:09:44.790 * Background saving started by pid 31722
+31722:C 01 Dec 2020 14:09:44.793 * DB saved on disk
+31722:C 01 Dec 2020 14:09:44.793 * RDB: 0 MB of memory used by copy-on-write
+31444:S 01 Dec 2020 14:09:44.890 * Background saving terminated with success
+31444:S 02 Dec 2020 16:50:08.477 # Connection with master lost.
+31444:S 02 Dec 2020 16:50:08.477 * Caching the disconnected master state.
+31444:S 02 Dec 2020 16:50:08.488 # User requested shutdown...
+31444:S 02 Dec 2020 16:50:08.489 * Calling fsync() on the AOF file.
+31444:S 02 Dec 2020 16:50:08.489 * Saving the final RDB snapshot before exiting.
+31444:S 02 Dec 2020 16:50:08.491 * DB saved on disk
+31444:S 02 Dec 2020 16:50:08.491 * Removing the pid file.
+31444:S 02 Dec 2020 16:50:08.491 # Redis is now ready to exit, bye bye...
+21712:C 02 Dec 2020 16:50:59.265 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+21712:C 02 Dec 2020 16:50:59.265 # Redis version=6.0.9, bits=64, commit=00000000, modified=0, pid=21712, just started
+21712:C 02 Dec 2020 16:50:59.265 # Configuration loaded
+21712:M 02 Dec 2020 16:50:59.267 * Node configuration loaded, I'm 6db3725912a9a04d75f91d0c307c11410b8f2211
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.9 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in cluster mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 7006
+ |    `-._   `._    /     _.-'    |     PID: 21712
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+21712:M 02 Dec 2020 16:50:59.267 # Server initialized
+21712:M 02 Dec 2020 16:50:59.267 * Reading RDB preamble from AOF file...
+21712:M 02 Dec 2020 16:50:59.267 * Loading RDB produced by version 6.0.9
+21712:M 02 Dec 2020 16:50:59.267 * RDB age 103770 seconds
+21712:M 02 Dec 2020 16:50:59.267 * RDB memory usage when created 2.49 Mb
+21712:M 02 Dec 2020 16:50:59.267 * RDB has an AOF tail
+21712:M 02 Dec 2020 16:50:59.267 * Reading the remaining AOF tail...
+21712:M 02 Dec 2020 16:50:59.268 * DB loaded from append only file: 0.000 seconds
+21712:M 02 Dec 2020 16:50:59.268 * Ready to accept connections
+21712:S 02 Dec 2020 16:50:59.268 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+21712:S 02 Dec 2020 16:50:59.268 # Cluster state changed: ok
+21712:S 02 Dec 2020 16:51:00.269 * Connecting to MASTER 127.0.0.1:7003
+21712:S 02 Dec 2020 16:51:00.269 * MASTER <-> REPLICA sync started
+21712:S 02 Dec 2020 16:51:00.269 * Non blocking connect for SYNC fired the event.
+21712:S 02 Dec 2020 16:51:00.269 * Master replied to PING, replication can continue...
+21712:S 02 Dec 2020 16:51:00.269 * Trying a partial resynchronization (request 478b6475a6199ecb45164e7c64ae1eaa91efbb28:1).
+21712:S 02 Dec 2020 16:51:00.270 * Full resync from master: 98f56b939dee3eea482316b43149210a7a2d7190:0
+21712:S 02 Dec 2020 16:51:00.270 * Discarding previously cached master state.
+21712:S 02 Dec 2020 16:51:00.346 * MASTER <-> REPLICA sync: receiving 190 bytes from master to disk
+21712:S 02 Dec 2020 16:51:00.346 * MASTER <-> REPLICA sync: Flushing old data
+21712:S 02 Dec 2020 16:51:00.346 * MASTER <-> REPLICA sync: Loading DB in memory
+21712:S 02 Dec 2020 16:51:00.348 * Loading RDB produced by version 6.0.9
+21712:S 02 Dec 2020 16:51:00.348 * RDB age 0 seconds
+21712:S 02 Dec 2020 16:51:00.348 * RDB memory usage when created 4.32 Mb
+21712:S 02 Dec 2020 16:51:00.348 * MASTER <-> REPLICA sync: Finished with success
+21712:S 02 Dec 2020 16:51:00.348 * Background append only file rewriting started by pid 21733
+21712:S 02 Dec 2020 16:51:00.374 * AOF rewrite child asks to stop sending diffs.
+21733:C 02 Dec 2020 16:51:00.374 * Parent agreed to stop sending diffs. Finalizing AOF...
+21733:C 02 Dec 2020 16:51:00.374 * Concatenating 0.00 MB of AOF diff received from parent.
+21733:C 02 Dec 2020 16:51:00.374 * SYNC append only file rewrite performed
+21733:C 02 Dec 2020 16:51:00.375 * AOF rewrite: 0 MB of memory used by copy-on-write
+21712:S 02 Dec 2020 16:51:00.470 * Background AOF rewrite terminated with success
+21712:S 02 Dec 2020 16:51:00.470 * Residual parent diff successfully flushed to the rewritten AOF (0.00 MB)
+21712:S 02 Dec 2020 16:51:00.471 * Background AOF rewrite finished successfully
+21712:S 02 Dec 2020 17:06:00.052 * 1 changes in 900 seconds. Saving...
+21712:S 02 Dec 2020 17:06:00.053 * Background saving started by pid 22573
+22573:C 02 Dec 2020 17:06:00.057 * DB saved on disk
+22573:C 02 Dec 2020 17:06:00.057 * RDB: 0 MB of memory used by copy-on-write
+21712:S 02 Dec 2020 17:06:00.153 * Background saving terminated with success
