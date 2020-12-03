@@ -6,7 +6,15 @@ skynet.start(function()
 		local console = skynet.newservice("console")
 	end
 	skynet.newservice("debug_console",8000)
-	
+    
+     local redis_pool = skynet.uniqueservice "redis_pool"
+     skynet.call(redis_pool, "lua", "start")
+     -- skynet.call(redis_pool, "lua", "get", 1, "aaa")
+
+     local mysql_pool = skynet.uniqueservice "mysql_pool"
+     skynet.call(mysql_pool, "lua", "start")
+     -- skynet.call(mysql_pool, "lua", "execute", "insert into user(uid, name) values (2, 'cxq');", "true")
+
     local proto = skynet.uniqueservice "protoloader"
     skynet.error("call proto lua load")
 	skynet.call(proto, "lua", "load", {

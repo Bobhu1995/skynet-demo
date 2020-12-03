@@ -1,6 +1,7 @@
 local skynet = require "skynet"
 local redis = require "skynet.db.redis"
-local redis_config = require "redis_conf"
+local redis_config = require "redis_config"
+local log = require "log"
 
 local CMD = {}
 local pool = {}
@@ -18,11 +19,11 @@ local function getconn(uid)
 end
 
 function CMD.start()
-	maxconn = tonumber(skynet.getenv("redis_maxinst")) or 2
+	maxconn = tonumber(skynet.getenv("redis_maxinst")) or 10
 	for i = 1, maxconn do
-		local db = redis.connect(redis_conf.auth)
+		local db = redis.connect(redis_config.auth)
 		if db then
-			db:flushdb() --测试期，清理redis数据
+			-- db:flushdb() --测试期，清理redis数据
 			table.insert(pool, db)
 		else
 			skynet.error("redis connect error")
