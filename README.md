@@ -20,3 +20,7 @@ dir "/usr/local/bob/skynet-demo/redis/7001/"
 基于redis-cluster-proxy搭建的redis集群代理
 
 ./redis-cluster-proxy -c proxy.conf
+
+# client
+
+./client.sh 可以运行脚本模拟登陆注册进入房间流程
