@@ -9,7 +9,8 @@ skynet.start(function()
     
      local redis_pool = skynet.uniqueservice "redis_pool"
      skynet.call(redis_pool, "lua", "start")
-     -- skynet.call(redis_pool, "lua", "get", 1, "aaa")
+     -- local a = { name = "alice", id = 100001, email = "aaa@163.com", level = 0 }
+     -- skynet.call(redis_pool, "lua", "hmset", 1, "person", a)
 
      local mysql_pool = skynet.uniqueservice "mysql_pool"
      skynet.call(mysql_pool, "lua", "start")

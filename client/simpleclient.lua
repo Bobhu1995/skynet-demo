@@ -4,7 +4,7 @@ IP = IP or "127.0.0.1"
 
 package.path = string.format("%s/client/?.lua;%s/skynet/lualib/?.lua;%s/lualib/?.lua", PATH, PATH, PATH)
 package.cpath = string.format("%s/skynet/luaclib/?.so;%s/lsocket/?.so", PATH, PATH)
-
+local Table = require "table_op"
 local socket = require "simplesocket"
 local message = require "simplemessage"
 
@@ -50,11 +50,16 @@ end
 function event:login(_, resp)
 	print("login", resp.ok)
 	if resp.ok then
-		message.request "ping"
+		-- message.request "ping"
         message.request ("say", { userid = tostring(name), words = "hello server" } )
+        message.request ("create", { name = "alice", id = 100001, email = "aaa@163.com", level = 0, phone = { {num = "123456", type = 1}, {num = "888888", type = 2} } } )
 	else
 		error "Can't login"
 	end
+end
+
+function event:create(args)
+	print("server create -----------------", Table.toString(args))
 end
 
 function event:push(args)

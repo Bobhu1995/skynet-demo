@@ -3,6 +3,7 @@ local service = require "service"
 local client = require "client"
 local log = require "log"
 local Table = require "table_op"
+local json = require "json"
 
 local room_mgr
 local manager
@@ -25,6 +26,17 @@ function cli:say(args)
     log("say = %s userid = %s", args.words, args.userid)
     client.notify(self, "notify", { words = "receive" })
     return { ok = true  }
+end
+
+function cli:create(args)
+	assert(self.login)
+	if not data.fd then
+		log("create fail %s fd=%s", data.userid, self.fd)
+        return { ok = false, val = {}  }
+	end
+	log("create --------- person = %s", Table.toString(args))
+	log("creat - ------ json=%s", json.encode(args))
+	return { ok = true, val = { args } }
 end
 
 function cli:login()

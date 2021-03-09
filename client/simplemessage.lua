@@ -18,7 +18,6 @@ function message.register(name)
 	f:close()
 	var.request = var.host:attach(sproto.parse(t))
     print("message register var\n")
-    Table.toString(var)
 end
 
 function message.peer(addr, port)
@@ -63,10 +62,8 @@ function message.update(ti)
 		end
 	else
         print(string.format("t=%s, session_id=%s, resp=%s, err=%s", t, session_id, resp, err))
-        Table.toString(var.session)
 		local session = var.session[session_id]
 		var.session[session_id] = nil
-        Table.toString(var)
 		for obj, handler in pairs(var.object) do
 			if err then
 				local f = handler.__error
@@ -78,7 +75,7 @@ function message.update(ti)
 				end
 			else
 				local f = handler[session.name]
-                print(string.format("session.name=%s,f=%s", session.name, f))
+                print(string.format("session.name=%s,f=%s, obj=%s --------- resp=%s", session.name, f, Table.toString(obj),  Table.toString(resp)))
 				if f then
 					local ok, err_msg = pcall(f, obj, session.req, resp, session_id)
 					print(string.format("session %s[%d] for [%s] error : %s", session.name, session_id, tostring(obj), err_msg))

@@ -60,3 +60,29 @@ leave 7 {
         ok 0 : boolean            
     }
 }
+
+.Person {
+	name 0 : string
+	id 1 : integer
+	email 2 : string
+	level 3 : integer
+
+	.PhoneNumber {
+		number 0 : string
+		type 1 : integer
+	}
+
+	phone 4 : *PhoneNumber
+}
+
+.AddressBook {
+	person 0 : *Person
+}
+
+create 8 {
+	request Person
+	response {
+		ok 0 : boolean
+		val 1 : *Person
+	}
+}
