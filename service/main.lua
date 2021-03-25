@@ -33,7 +33,8 @@ skynet.start(function()
     skynet.error("after hub")
 	skynet.call(hub, "lua", "open", "0.0.0.0", 5678)
     
-    
+    local manager = skynet.uniqueservice "manager"
+    skynet.call(manager, "lua", "init_agent_pool")
     --skynet.error("bobhu-------------", hot:set("C", "bobhu"))
     --skynet.error("bobhu-------------", hot:get("C"))
     

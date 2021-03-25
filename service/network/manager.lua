@@ -60,15 +60,14 @@ end
 
 function manager.init()
 	MAX_AGENT_COUNT = server_common.pools_config.agent_count or 100
+end
+
+function manager.init_agent_pool()
 	pool = {}
-	skynet.timeout(300, function ()
-		skynet.fork(function ()
-			for i = 1, MAX_AGENT_COUNT do
-				local agent = skynet.newservice "agent"
-				table.insert(pool, agent)
-			end
-		end)
-	end)
+	for i = 1, MAX_AGENT_COUNT do
+		local agent = skynet.newservice "agent"
+		table.insert(pool, agent)
+	end
 	log("manager init ------ MAX_AGENT_COUNT=%s, pool=%d", MAX_AGENT_COUNT, #pool)
 end
 
